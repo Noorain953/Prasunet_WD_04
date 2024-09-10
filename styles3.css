@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* Light background with a slight tint for a fresh feel */
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-weight: 800;
+    color: #4f6787; /* Dark blue-grey for a professional look */
+}
+
+h2, h3 {
+    margin: 0 0 20px;
+    font-weight: 800;
+    color: #2b6cb0; /* Rich blue for headings to draw attention */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4a5568; /* Medium grey for readability */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2d3748; /* Deep slate grey for an elegant, sleek navbar */
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    float: left;
+    font-size: 24px;
+}
+
+.navbar nav {
+    float: right;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #f6ad55; /* Warm orange on hover for a friendly vibe */
+}
+
+/* About Me Section */
+.about-me {
+    padding: 60px 0;
+    background-color: #ffffff; /* Clean white for the content section */
+}
+
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #2b6cb0; /* Border matches the heading color for consistency */
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.internship {
+    margin-bottom: 40px;
+}
+
+.company-logo {
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #1a202c; /* Dark grey-blue for contrast */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Custom Image */
+.custom-image {
+    width: 400px;
+    height: auto;
+    border: 2px solid #e2e8f0; /* Light border for subtle emphasis */
+    border-radius: 10px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.custom-image:hover {
+    transform: scale(1.1);
+}
+
+/* Contact Form */
+.contact {
+    padding: 20px;
+    background-color: #edf2f7; /* Soft grey-blue for a welcoming form section */
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #d69e2e; /* Golden yellow to give the contact section importance */
+}
+
+.contact form {
+    display: inline-block;
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cbd5e0; /* Soft grey-blue border for a calm, minimal aesthetic */
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #48bb78; /* Fresh green for an inviting call to action */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-color: #38a169; /* Darker green for hover state */
+}
